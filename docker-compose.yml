@@ -16,19 +16,19 @@ services:
   backend1:
     build:
       context: .
-      dockerfile: Dockerfile.backend
+      dockerfile: backend.Dockerfile
     container_name: backend1
 
   backend2:
     build:
       context: .
-      dockerfile: Dockerfile.backend
+      dockerfile: backend.Dockerfile
     container_name: backend2
 
   backend3:
     build:
       context: .
-      dockerfile: Dockerfile.backend
+      dockerfile: backend.Dockerfile
     container_name: backend3
 
 
