@@ -3,7 +3,7 @@
 set -e  # Exit on error
 
 echo "Building backend images..."
-docker build -f Dockerfile.backend -t simple-backend .
+docker build -f backend.Dockerfile -t simple-backend .
 
 echo "Starting services with Docker Compose..."
 docker-compose up -d
